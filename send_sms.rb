@@ -13,5 +13,5 @@ auth_token = MyKeys.auth_token
 @client.account.messages.create(
   from: MyNumbers.from_number,
   to: MyNumbers.test_number,
-  body: 'DANGER! DANGER! Robots are invading! Detection in your vicinity!'
+  body: 'DANGER! DANGER! Robots are invading! Text us the location of any robot sightings!'
 )
